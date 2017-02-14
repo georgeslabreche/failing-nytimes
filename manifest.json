@@ -1,8 +1,8 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
 
-  "name": "The Failing NYTimes",
-  "description": "Replace every instance of the The NYTimes to the failing NYTimes.",
+  "name": "The Failing New York Times",
+  "description": "Replace every instance of \"The New York Times\" to \"The Failing New York Times\".",
   "version": "1.0",
   "icons": { 
     "16": "icon-16.png",

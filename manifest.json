@@ -3,7 +3,7 @@
 
   "name": "The Failing New York Times",
   "description": "Replace every instance of \"The New York Times\" to \"The Failing New York Times\".",
-  "version": "1.0",
+  "version": "1.1",
   "icons": { 
     "16": "icon-16.png",
     "48": "icon-48.png", 

@@ -15,7 +15,7 @@ for (var i = 0; i < elements.length; i++) {
             replacedText = replacedText.replace(/the nytimes/gi, 'the failing NYTimes');
             replacedText = replacedText.replace(/the ny times/gi, 'the failing NY Times');
             replacedText = replacedText.replace(/the nytimes/gi, 'the failing NYTimes');
-            replacedText = replacedText.replace(/NYT/gi, 'FYNT');
+            replacedText = replacedText.replace(/NYT/gi, 'FNYT');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);

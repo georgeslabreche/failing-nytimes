@@ -8,13 +8,13 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node.nodeType === 3) {
             var text = node.nodeValue;
-            var replacedText = text.replace(/The New York Times/g, 'The Failing New York Times');
-            replacedText = replacedText.replace(/The NY Times/g, 'The Failing NY Times');
-            replacedText = replacedText.replace(/The NYTimes/g, 'The Failing NYTimes');
-            replacedText = replacedText.replace(/the new york times/gi, 'the failing New York Times');
-            replacedText = replacedText.replace(/the nytimes/gi, 'the failing NYTimes');
-            replacedText = replacedText.replace(/the ny times/gi, 'the failing NY Times');
-            replacedText = replacedText.replace(/the nytimes/gi, 'the failing NYTimes');
+            var replacedText = text.replace(/New York Times/g, 'Failing New York Times');
+            replacedText = replacedText.replace(/NY Times/g, 'Failing NY Times');
+            replacedText = replacedText.replace(/NYTimes/g, 'Failing NYTimes');
+            replacedText = replacedText.replace(/new york times/gi, 'failing New York Times');
+            replacedText = replacedText.replace(/nytimes/gi, 'failing NYTimes');
+            replacedText = replacedText.replace(/ny times/gi, 'failing NY Times');
+            replacedText = replacedText.replace(/nytimes/gi, 'failing NYTimes');
             replacedText = replacedText.replace(/NYT/gi, 'FNYT');
 
             if (replacedText !== text) {

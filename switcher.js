@@ -11,11 +11,11 @@ for (var i = 0; i < elements.length; i++) {
             var replacedText = text.replace(/New York Times/g, 'Failing New York Times');
             replacedText = replacedText.replace(/NY Times/g, 'Failing NY Times');
             replacedText = replacedText.replace(/NYTimes/g, 'Failing NYTimes');
-            replacedText = replacedText.replace(/new york times/gi, 'failing New York Times');
-            replacedText = replacedText.replace(/nytimes/gi, 'failing NYTimes');
-            replacedText = replacedText.replace(/ny times/gi, 'failing NY Times');
-            replacedText = replacedText.replace(/nytimes/gi, 'failing NYTimes');
-            replacedText = replacedText.replace(/NYT/gi, 'FNYT');
+            replacedText = replacedText.replace(/new york times/g, 'failing new york times');
+            replacedText = replacedText.replace(/ny times/g, 'failing ny times');
+            replacedText = replacedText.replace(/nytimes/g, 'failing nytimes');
+            replacedText = replacedText.replace(/NYT/g, 'FNYT');
+            
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
